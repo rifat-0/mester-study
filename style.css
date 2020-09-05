@@ -1,0 +1,113 @@
+/* header*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+header {
+	padding: 30px 0;
+}
+.contenar {
+	flex-basis: 70%;
+	max-width: 70%;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.logo {
+	flex-basis: 25%;
+	max-width: 25%;
+}
+nav {
+	flex-basis: 40%;
+	max-width: 40%;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #333;
+}
+nav ul li a:hover {
+	background-color: #F2B91E;
+}
+.social-media {
+	flex-basis: 20%;
+	max-width: 20%;
+}
+.social-media a {
+	display: inline-block;
+	padding: 9px;
+	color: #333;
+}
+.social-media a:hover {
+	background-color: #F2B91E;
+}
+.bennar-section {
+	background-image: url(images/slide-1.jpg);
+	min-height: 100vh;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.box {
+	width: 40%;
+	float: right;
+	margin-top: 220px;
+	margin-right: 100px;
+}
+.box h1 {
+	color: #333;
+	font-size: 3em;
+	line-height: 1em;
+}
+.box h1 span {
+	color: #F2B91E;
+}
+.box p {
+	color: #333;
+	margin-top : 20px;
+}
+.about {
+	padding: 60px;
+}
+.sign {
+	flex-basis: 30%;
+	max-width: 30%;
+}
+.sign img {
+	margin-top: 15px;
+}
+.about-us {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+.cours-section {
+	background-color: #dadada;
+	padding: 30px 0;
+}
+.contenar>h1 {
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 2em;
+}
+.corses {
+	flex-basis: 33.33%;
+	max-width: 33.33%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.hp {
+	padding: 5px;
+	text-align: center;
+	background-color: #fff;
+}
